@@ -1,0 +1,15 @@
+<mvc:View controllerName="com.mindset.apps.project9.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <VBox>
+            <Text id="array1Text" />
+            <Text id="array2Text" />
+            <HBox>
+            <Button text="Union Arrays" press="onUnionPress" />
+            <Button text="Intersection Arrays" press="onIntersectionPress" />
+            </HBox>
+            <Text id="resultText" />
+        </VBox>
+    </Page>
+</mvc:View>
